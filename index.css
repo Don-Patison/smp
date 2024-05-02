@@ -1,0 +1,94 @@
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+#navbar li {
+    display: inline; 
+}
+  #navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #000000;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  #navbar a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+  }
+  #navbar a:hover {
+    border-radius: 15px;
+    background-color: #0066FF;
+  }
+  #zagolovok1 {
+    font-size: 200%;
+    text-align: center;
+    font-family: monospace;
+    color: #000000;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px solid #000000;
+
+}
+  #blokzagolovka {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    background-color: #000000;
+    border-radius: 10px;
+    }
+#zagolovok2 {
+    font-size: 200%;
+    text-align: center;
+    font-family: monospace;
+    text-decoration-color: #fff;
+    background-color: #0066FF;
+    border-radius: 10px;
+    border: 5px solid #000000;
+    color: #fff;
+}
+.razdelitel{
+    width: 100%;
+    background-color: #4b4b4b63;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.gradient-button {
+    left: 30%;
+    width: 20%;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  .gradient-button:hover {
+    background-position: right center;
+  }
+  #pica {
+    width: 100%;
+  }
+  #left-side{
+    width: 50%;
+  }
