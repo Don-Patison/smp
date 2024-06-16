@@ -55,7 +55,7 @@
   
   .desktop .CM-craft {
     position: absolute;
-    width: 1152px;
+    width: 100%;
     top: 55px;
     left: 72px;
     font-family: "Cascadia Code-Regular", Helvetica;
